@@ -1,0 +1,15 @@
+- Make $_cur_time in functions/common.ps1 a single line
+
+- Borrow some stuff from here: https://github.com/jayharris/dotfiles-windows
+
+- Import dotfiles appropriately (see above link)
+
+- Set ShutUp10 configuration from configs/ooshutup10.cfg
+
+- Create shortcuts (e.g. taskbar items, ~\Desktop\Programs, ~\Desktop\Games, Mouse Jiggler)
+
+- Set Explorer settings
+
+- Set various other settings (start menu settings bar, taskbar items, date format, dark mode, etc.)
+
+- And much, much more in this exclusive offer!
