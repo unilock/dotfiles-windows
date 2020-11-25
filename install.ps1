@@ -7,3 +7,5 @@ Print-Line "Setting up the environment."
 
 # Install Chocolatey packages
 .\scripts\install-chocolatey-packages.ps1
+
+Print-Line "Done. A reboot is recommended."
