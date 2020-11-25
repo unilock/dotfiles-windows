@@ -1,4 +1,5 @@
 . functions/common.ps1
+. functions/install-chocolatey.ps1
 
 # Install Chocolatey.
 
