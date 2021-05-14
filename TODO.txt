@@ -1,3 +1,5 @@
+- Install Lightcord: https://lightcord.org/
+
 - Make $_cur_time in functions/common.ps1 a single line
 
 - Borrow some stuff from here: https://github.com/jayharris/dotfiles-windows
