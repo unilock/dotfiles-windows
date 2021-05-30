@@ -1,4 +1,5 @@
-- Install Lightcord: https://lightcord.org/
+- Install Discord Canary + BetterDiscord w/ plugins (DoNotTrack + PluginRepo)
+- Install Sublime Text
 
 - Make $_cur_time in functions/common.ps1 a single line
 
