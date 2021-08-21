@@ -1,5 +1,4 @@
-- Install Discord Canary + BetterDiscord w/ plugins (DoNotTrack + PluginRepo)
-- Install Sublime Text
+- Install Powercord w/ plugins (see dotfiles-linux)
 
 - Make $_cur_time in functions/common.ps1 a single line
 
