@@ -8,7 +8,7 @@ foreach($line in Get-Content lists\scoop-buckets) {
     scoop bucket add $line
 }
 
-Print-Line "Installed Scoop packages."
+Print-Line "Installing Scoop packages."
 
 foreach($line in Get-Content lists\scoop-packages) {
     scoop install $line
