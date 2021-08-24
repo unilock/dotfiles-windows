@@ -1,5 +1,7 @@
 - Install Powercord w/ plugins (see dotfiles-linux)
 
+- Install ungoogled-updater for ungoogled-chromium: https://github.com/NeverDecaf/ungoogled-updater
+
 - Make $_cur_time in functions/common.ps1 a single line
 
 - Borrow some stuff from here: https://github.com/jayharris/dotfiles-windows
