@@ -1,0 +1,35 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+    // Note that the font_face and font_size are overridden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+    "font_face": "",
+    "font_size": 12,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Set to false to disable detection of tabs vs. spaces on load
+    "detect_indentation": false,
+
+    // Valid values are "smooth", "phase", "blink" and "solid". Previous
+    // versions of Sublime Text used "smooth" by default.
+    "caret_style": "smooth",
+
+    // Set to true to ensure the last line of the file ends in a newline
+    // character when saving
+    "ensure_newline_at_eof_on_save": true,
+
+    // When enabled, pressing tab will insert the best matching completion.
+    // When disabled, tab will only trigger snippets or insert a tab.
+    // Shift+tab can be used to insert an explicit tab when tab_completion is
+    // enabled.
+    "tab_completion": false,
+
+    // Sets the colors used within the text area.
+    // The value "auto" will switch between the "light_color_scheme" and
+    // "dark_color_scheme" based on the operating system appearance.
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+}
