@@ -1,14 +1,10 @@
-aria2
-
 7zip
 adb
 adopt8-hotspot-jre
 adoptopenjdk-hotspot-jre
 discord-canary
 etcher
-flux
 freetube
-git
 keepassxc
 libreoffice-fresh
 meld
@@ -17,7 +13,6 @@ multimc-dev
 nodejs-lts
 obs-studio
 openhardwaremonitor
-shutup10
 steam
 sublime-text
 vlc
