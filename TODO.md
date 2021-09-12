@@ -9,6 +9,7 @@
 - Borrow some stuff from here: https://github.com/jayharris/dotfiles-windows
 
 - Import dotfiles appropriately (see above link)
+- ...and Sublime Text preferences
 
 REDO BELOW
 
