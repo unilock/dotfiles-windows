@@ -3,7 +3,7 @@
 
 # Check if winget is installed.
 
-if(Test-CommandExists(winget) -eq $null) {
+if((Test-CommandExists winget) -eq $null) {
     Print-Line "
     winget is not installed!
     Please be sure:

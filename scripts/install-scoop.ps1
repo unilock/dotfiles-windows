@@ -3,7 +3,7 @@
 
 # Install Scoop.
 
-if(Test-CommandExists(scoop) -eq $null) {
+if((Test-CommandExists scoop) -eq $null) {
     Print-Line "Installing Scoop."
 
     iwr -useb get.scoop.sh | iex
@@ -12,3 +12,4 @@ if(Test-CommandExists(scoop) -eq $null) {
 Print-Line "Installing Scoop essentials."
 
 scoop install aria2
+scoop install git
