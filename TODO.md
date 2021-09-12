@@ -1,6 +1,8 @@
 - Install Powercord w/ plugins (see dotfiles-linux; document in dotfiles-common)
 
-- Edge settings, unless they sync with Microsoft account?
+- (some) Edge settings
+    - Default search engine
+    - ...?
 
 - Powershell settings (size: 80x24, font: 16)
 

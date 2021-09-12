@@ -1,6 +1,6 @@
-. functions/common.ps1
+. functions\common.ps1
 
-# Install long list of packages.
+# Install scoop packages.
 
 Print-Line "Adding Scoop buckets."
 
