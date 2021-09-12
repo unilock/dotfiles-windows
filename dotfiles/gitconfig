@@ -4,7 +4,7 @@
     email = unilock@fennet.rentals
 
 [core]
-    editor = notepad++
+    editor = subl -n -w
 
 [push]
 
