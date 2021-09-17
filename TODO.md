@@ -1,3 +1,9 @@
+- NOTE: `winget upgrade` does not upgrade programs; it only updates the program database and lists which programs can be upgraded
+- Running `winget upgrade --all` "fixes" this; however, it may upgrade Discord, which is not optimal as that will cause Powercord to unplug (a manual replug will be necessary)
+- Potential fixes (neither optimal):
+    - Exclude Discord from upgrades via built-in `winget` functionality (currently does not exist)
+    - Upgrade all programs *except* Discord via regex magic
+
 - Install Powercord w/ plugins (see dotfiles-linux; document in dotfiles-common)
 
 - (some) Edge settings
