@@ -3,8 +3,8 @@
 # Install winget packages.
 # We don't care for `winget import`.
 
-Print-Line "Installing winget packages."
+Print-Line "Installing WinGet packages."
 
-ForEach($line in Get-Content lists\winget-packages) {
-    winget install $line
+foreach($line in Get-Content lists\winget-packages) {
+    winget install $line --source winget
 }

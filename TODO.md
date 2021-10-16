@@ -2,7 +2,7 @@
 - Running `winget upgrade --all` "fixes" this; however, it may upgrade Discord, which is not optimal as that will cause Powercord to unplug (a manual replug will be necessary)
 - Potential fixes (neither optimal):
     - Exclude Discord from upgrades via built-in `winget` functionality (currently does not exist)
-    - Upgrade all programs *except* Discord via regex magic
+    - Upgrade all programs *except* Discord via regex magic (foreach?)
 
 - Install Powercord w/ plugins (see dotfiles-linux; document in dotfiles-common)
 
@@ -10,12 +10,21 @@
     - Default search engine
     - ...?
 
-- Powershell settings (size: 80x24, font: 16)
-
 - Borrow some stuff from here: https://github.com/jayharris/dotfiles-windows
 
 - Import dotfiles appropriately (see above link)
 - ...and Sublime Text preferences
+
+- PowerToys prefs (run as admin on first start)
+    - Awake: On
+    - Color Picker: On
+    - FancyZones: Off
+    - File Explorer add-ons: On
+    - Image Resizer: Off
+    - Keyboard Manager: Off
+    - PowerRename: On
+    - PowerToys Run: On
+    - Shortcut Guide: Off
 
 REDO BELOW
 

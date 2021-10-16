@@ -5,7 +5,7 @@
 
 if((Test-CommandExists winget) -eq $null) {
     Print-Line "
-    winget is not installed!
+    WinGet is not installed!
     Please be sure:
     - You are in the Windows Insider program
     - You have the latest version of App Installer

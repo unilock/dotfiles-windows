@@ -9,7 +9,7 @@ function Invalid-Disk {
 $_DiskInfo = Get-CimInstance -Query "SELECT * from Win32_DiskDrive"
 
 $_NumberDisks = $_DiskInfo.Count
-$_FunkyLine = "-" * ("Disk: $_NumberDisks" | Measure-Object -Character).Characters # this was very necessary
+$_FunkyLine = "-" * ("Disk: $_NumberDisks" | Measure-Object -Character).Characters # this was necessary
 
 for ($i = 0; $i -lt $_NumberDisks; $i++) {
     Write-Host (
@@ -28,7 +28,6 @@ Try {
 } Catch {
     Invalid-Disk
 }
-
 
 if ($_UserWants -lt 1 -or
     $_UserWants -gt $_NumberDisks) {
