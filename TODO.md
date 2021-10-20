@@ -16,7 +16,7 @@
 - ...and Sublime Text preferences
 
 - PowerToys prefs (run as admin on first start)
-    - Awake: On
+    - Awake: Off ("keep screen on" doesn't work)
     - Color Picker: On
     - FancyZones: Off
     - File Explorer add-ons: On
