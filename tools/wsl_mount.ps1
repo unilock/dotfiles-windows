@@ -21,7 +21,8 @@ for ($i = 0; $i -lt $_NumberDisks; $i++) {
         )
 }
 
-$_UserWants = Read-Host -Prompt "`nSelect a disk to mount"
+Write-Host "`nWARNING: WSL does not yet support mounting USB drives!"
+$_UserWants = Read-Host -Prompt "Select a disk to mount"
 
 Try {
     $_UserWants = [int]$_UserWants
